@@ -1,6 +1,6 @@
 FROM nginx:1.27-alpine
 
-COPY index.html canvas-design.js /usr/share/nginx/html/
+COPY . /usr/share/nginx/html/
 
 RUN echo 'server { \
     listen 80; \
